@@ -4,19 +4,34 @@
     padding: 0;
 }
 
+/*posizionamento elementi */
+
 .sfondo{
     position: relative;
-    background-color: red;
     width: 100%;
     height: 100vh;
+  
 }
 
 .cent-contenuto{
-
     position: absolute;
     top: 10%;
     left: 20%;
     transform: (-50% -50%);
     text-align: center;
+}
 
+/* formattazione elementi */
+
+#scarpa-blu{
+    background-color: red;
+    color: yellow;
+}
+#scarpa-bianca{
+    background-color: green;
+    color: yellow;
+}
+#scarpa-verde{
+    background-color: yellow;
+    color: green;
 }
